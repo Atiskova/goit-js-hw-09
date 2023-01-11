@@ -32,6 +32,7 @@ function onBtnStartClick() {
       if (diff <= 0) {
         clearInterval(intervalId);
         btnStart.disabled = false;
+        document.querySelector('.timer').style.color = "red";
         return;
       }
 
